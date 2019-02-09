@@ -7,13 +7,13 @@ Notes on usefull commands in linux
 ```bash
 sudo nano /lib/systemd/system/bluetooth.service
 
-// change
+# change
 ExecStart=/usr/lib/bluetooth/bluetoothd
 
-// to
+# to
 ExecStart=/usr/lib/bluetooth/bluetoothd --plugin=a2dp
 
-// then
+# then
 sudo systemctl daemon-reload
 sudo systemctl restart bluetooth
 ```
