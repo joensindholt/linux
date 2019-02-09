@@ -4,7 +4,7 @@ Notes on usefull commands in linux
 
 ## Low volume iPods
 
-```sh
+```bash
 sudo nano /lib/systemd/system/bluetooth.service
 
 // change
